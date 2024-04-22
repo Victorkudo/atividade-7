@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Heebo:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Znamenny+Musical+Notation&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ html{
+    overflow: hidden;
+ }
+ html::-webkit-scrollbar{
+    display: none;
+ }
+ nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    background: black;
+    height: 2rem;
+    padding-left: 1rem;
+    align-items: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Bungee Spice', sans-serif;
+
+}
+section{
+    min-height: 100vh;
+    padding-top: 2.5rem;
+    padding-left: 1.5rem;
+    color: blue;
+}
+
+section a:link{
+    color: aliceblue;
+}
+section a:visited{
+    color: lightcoral;
+}
+section a:hover{
+    color: blue;
+}
+h1{
+    background: rgba(0, 0, 0, 0.1);
+}
+div{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+
+.fa-poo{
+    color: brown;
+}
+.fa-hospital{
+    color: aqua;
+}
+.fa-joint{
+    color: gray;
+}
+.fa-wheelchair-move{
+    color: cornflowerblue;
+}
+.fa-hand-middle-finger{
+    color: lightcoral;
+}
+.fa-hand-fist{
+    color: brown;
+}
+.fa-shrimp{
+    color: orangered;
+}
+.fa-crow{
+    color: rgb(165, 160, 160);
+}
+.fa-gun{
+    color: gray;
+}
+.fa-dumbbell{
+    color: black;
+}
+.fa-mars-and-venus{
+    color: lightskyblue;
+}
